@@ -1,0 +1,8 @@
+#1°: Crie um algoritmo para calcular o IMC do usuário. IMC = peso / altura²
+
+peso = float(input("Me informe o seu peso: "))
+print(peso)
+altura = float(input("Me informe a sua altura: "))
+print(altura)
+imc = peso / (altura**2)
+print(f"Seu IMC e: {imc}")
