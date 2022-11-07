@@ -1,0 +1,10 @@
+'''3°: Escreva um algoritmo para ler as dimensões de um retângulo (largura e comprimento), 
+calcular e escrever a área do retângulo.
+retangulo = largura * comprimento'''
+
+largura = float(input("A largura e: "))
+comprimento = float(input("O comprimento e: "))
+
+retangulo = largura * comprimento
+
+print(f"A dimensao do retangulo e: {retangulo}")
