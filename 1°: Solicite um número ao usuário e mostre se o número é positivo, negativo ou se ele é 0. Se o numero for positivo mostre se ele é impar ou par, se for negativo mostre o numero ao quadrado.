@@ -1,0 +1,16 @@
+'''1°: Solicite um número ao usuário e mostre se o número é positivo, negativo ou se ele é 0.
+Se o numero for positivo mostre se ele é impar ou par, se for negativo mostre o numero ao quadrado.'''
+
+
+numero = int(input("Informe o valor que deseja a informação: \n"))
+
+if numero > 0:
+    if numero % 2 == 0:
+        print(f"Esse número é positivo e par {numero}.")
+    else:
+        print(f"Esse número é positivo e ímpar {numero}.")
+elif numero < 0:
+        numero = numero ** 2
+        print(f"Número é negativo e seu quadrado é: {numero}")
+else:
+    print(f"Esse número é zero.")
